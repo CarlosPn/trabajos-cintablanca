@@ -1,0 +1,164 @@
+/* Aplica a todas las etiquetas*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header*/
+.encabezado {
+    background-color: tomato;
+}
+.titulo {
+    text-align: center;
+    color: #ffffff;
+}
+/* header */
+
+/*main*/
+.contenedor-principal {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.texto {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imagen {
+    border: solid 1px black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+    width: 150px;
+
+}
+/* Main */
+
+/*Contenedor vacio*/
+.contenedor-vacio {
+    height: 10px;
+
+
+}
+/*Contenedor vacio*/
+
+/* Section*/
+.contenedor-secundario {
+    background-color: yellow;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+
+}
+
+.imagen2 {
+    border: solid 1px black;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+}
+.logo2 {
+    height: 200px;
+    width: 150px;
+
+}
+
+.texto2 {
+    border: solid 1px black;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+
+}
+
+.imagen3 {
+    border: solid 1px black;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+}
+
+.logo3 {
+    height: 200px;
+    width: 150px;
+}
+/* Section*/
+
+/*Contenedor vacio2*/
+.contenedor-vacio2 {
+    height: 10px;
+}
+/*Contenedor vacio2*/
+
+/*contenedor ultimo*/
+.contenedor-ultimo {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.lista {
+    background-color: cadetblue;
+    border: solid 1px black;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-ultima {
+    background-color: cadetblue;
+    border: solid 1px black;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo4 {
+    height: 200px;
+    width: 150px;
+}
+
+.lista1 {
+    background-color: cadetblue;
+    border: solid 1px black;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

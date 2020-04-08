@@ -1,0 +1,61 @@
+p {
+    color: red;
+
+/*rgb*/
+/* color: rgb(255, 10, 90)*/
+/*Hexagonal*/
+/* color: #00FF33*/
+font-family: arial;
+}
+
+h1 {
+    font-family: arial;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+/*Clase*/
+.verde {
+    color: green;
+}
+
+.verde:hover{
+    color: red;
+
+}
+
+
+.cuadrado {
+    background-color: indigo;
+    height: 200px;
+    width: 200px;
+    padding-left: 30px;
+    border: solid 5px black;
+    margin: 25px;
+}
+.cuadrado:hover{
+    height: 150px;
+}
+
+/*id prioridad ÚNICO. Prioridad sobre clase*/
+#azul {
+    color: blueviolet;
+}
+
+img {
+    border: red;
+
+}
+
+.rectangulo{
+    height: 10px;
+    width: 30px;
+    font: italic;
+}
